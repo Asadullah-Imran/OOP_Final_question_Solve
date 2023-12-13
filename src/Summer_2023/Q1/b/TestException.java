@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class TestException {
 
     public static void main(String[] args) {
-        String B="";
         Scanner scan = new Scanner(System.in);
         int flag = 0;
         while(flag == 0) //so when the flag value change and not 0 then the loop will end.
@@ -67,18 +66,26 @@ public class TestException {
 //2 e
 //C
 //D
+
+
 //Enter 2 integers.
 //e 5
 //B
 //D
+
+
 //Enter 2 integers.
 //f f
 //B
 //D
+
+
 //Enter 2 integers.
 //5 0
 //A
 //D
+
+
 //Enter 2 integers.
 //2 2
 //Result: 1

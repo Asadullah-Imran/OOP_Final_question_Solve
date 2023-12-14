@@ -1,4 +1,4 @@
-package Summer_2023.Q4;
+package Summer_2023.Q4.b;
 
 public class MyThread extends Thread{
     private int tid; // Thread ID

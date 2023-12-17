@@ -10,6 +10,10 @@ public class Calc extends JFrame implements ActionListener {
     JTextField Result;
     JButton add;
     JButton subtract;
+    JLabel n1;
+    JLabel n2;
+    JLabel result;
+
 
     Calc(){
         setSize(400,500);
@@ -23,8 +27,11 @@ public class Calc extends JFrame implements ActionListener {
 
         N1=new JTextField();
         N2=new JTextField();
+        n1=new JLabel();
+        n2=new JLabel();
         Result=new JTextField();
         N1.setBounds(20,20,150,50);
+        n1.setBounds(20,20,150,50);
         N2.setBounds(200,20,150,50);
         Result.setBounds(120,120,200,50);
 

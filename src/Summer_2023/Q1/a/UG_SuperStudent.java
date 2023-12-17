@@ -3,6 +3,8 @@ package Summer_2023.Q1.a;
 public class UG_SuperStudent extends Student implements TA,RA{
     String professor, research;
     int salary;
+
+    //you do not need to write this constructor
     UG_SuperStudent(String firstName, String lastName, String studentID, int age,String professor,String research,int salary) {
         super(firstName, lastName, studentID, age);
         this.professor=professor;
@@ -12,7 +14,7 @@ public class UG_SuperStudent extends Student implements TA,RA{
 
     @Override
     public void register(){
-        System.out.println("Course name not found *************");
+        System.out.println("Registered course");
     }
 
     @Override
@@ -34,5 +36,4 @@ public class UG_SuperStudent extends Student implements TA,RA{
 
 }
 
-//Instruction
-//Which Part WE will write only
+

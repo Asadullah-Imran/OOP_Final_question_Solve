@@ -9,7 +9,7 @@ public class Book {
     }
     void buyBook(){
         // Complete the method
-        if(numberOfAvailableCopies<1){
+        if(numberOfAvailableCopies==0){
             throw new BookOutOfStockException("[BookOutOfStockException] The value of numberOfAvailableCopies is 0.");
         }
     }

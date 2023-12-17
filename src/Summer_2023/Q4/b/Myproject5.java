@@ -27,10 +27,10 @@ public class Myproject5 {
         if(!t1.isAlive() && !t2.isAlive() && !t3.isAlive()){
             double r = ((MyThread)t1).get_z();
 // Write your code here to compute final z
-            double r2 = ((MyThread)t2).get_z();
-            double r3 = ((MyThread)t3).get_z();
-            double sum=(r*r2*r3);
-            System.out.println(sum);
+            r*= ((MyThread)t2).get_z();
+            r*= ((MyThread)t3).get_z();
+
+            System.out.println(r);
 
         }
     }

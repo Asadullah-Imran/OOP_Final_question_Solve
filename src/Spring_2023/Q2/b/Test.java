@@ -19,7 +19,7 @@ public class Test{
         try{
             System.out.println( m.divide(n,d));
         }catch (DivByZero e){
-            System.out.println(e.getMessage());
+           // System.out.println(e.getMessage());
         }
         finally {
             System.out.println("Complete");

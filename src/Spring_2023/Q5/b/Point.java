@@ -40,17 +40,21 @@ public class Point implements Comparable<Point> {
         points.add(p4);
         points.add(p5);
 
+
+
+        //To check Is our code is runnig or not
         System.out.println("before sort");
-        printList(points);
-        Collections.sort(points);
-        System.out.println("After sort");
-        printList(points);
-
-    }
-
-    public static void printList(ArrayList<Point> points){
         for(int i=0;i<points.size();i++){
             System.out.println(points.get(i).x +", "+points.get(i).y);
         }
+        Collections.sort(points);
+        System.out.println("After sort");
+        for(int i=0;i<points.size();i++){
+            System.out.println(points.get(i).x +", "+points.get(i).y);
+        }
+
+
     }
+
+
 }

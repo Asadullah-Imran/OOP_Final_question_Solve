@@ -14,7 +14,7 @@ public class StringOperation {
 
             strings.add(string.charAt(i));
         }
-        if(strings.size()>1){
+        if(strings.size()>2){
             strings.set(2,'z');
         }
         System.out.println(strings);

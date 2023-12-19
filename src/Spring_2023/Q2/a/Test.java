@@ -14,7 +14,7 @@ public class Test{
         try{
         System.out.println(m.divide(n,d));
         }catch (ArithmeticException e){
-            e.printStackTrace();
+           // e.printStackTrace();
         }
         finally {
         System.out.println("Complete");

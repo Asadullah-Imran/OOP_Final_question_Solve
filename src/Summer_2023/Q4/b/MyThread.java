@@ -23,6 +23,11 @@ public class MyThread extends Thread{
             z=z*(1.0/startValue);
             startValue+=3;
         }
+//here you can use for loop also. it also do the same thing 
+
+// for(int i=startValue;i<=endValue;i+=inc){
+//             z=z*1/i;
+//         }
 
 
     }
